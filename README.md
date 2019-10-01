@@ -24,7 +24,28 @@ console.readline();
 *CONVERSIONES*
 using System;
 
-namespace
+namespace conversiones
+class progam
+{
+static void main(string[]args)
+{
+//En c# las varibales son declaradas enunciando el tipo de dato seguido de el nombre de la variable y opcionalmente de un valor de inicio
+string numero ="1234"
+//Se muestra como representacion string(Tosting())
+//del tipo de dato(gettyoe())
+//de la variable(numero)
+console.writeline(numero.gettype().tostring());
+//se debe coonvertir a int y se muestra el tipo
+int intnumero = convert.to int32(numero);
+console.writeliner(intNumero.gettype().tostring());
+//string.format este comando permite hacer micro substituciones
+console.writeline(string.format("El nuero es (0)",
+intnumero));
+console.readline();
+}
+}
+}
+
 
 
 *ALEATORIO*
