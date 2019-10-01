@@ -22,7 +22,9 @@ console.readline();
 
 
 *CONVERSIONES*
+using System;
 
+namespace
 
 
 *ALEATORIO*
@@ -172,6 +174,140 @@ console.readkey();
 
 
 *COMPARA*
+using system
+namespace compara
+{
+static void main(string[]args)
+{
+//Una vez presentados los datos de string se deberan converitr a INT y se almacenaran en //2 variables de trabajo
+string_numero2,_numero2;
+console.write("numero 1");
+_numero1 = console.readline();
+console.write(numero 2; ");
+_numero2 = console.readline();
+nunero1 = comvert.toint32(_numero1);
+numero2 = convert.toint32(_numero2);
+//un if dentro del otro ambor¿s con una salida por falso
+if(numero1) == numero2)
+{console.writeline(
+string.foreat(
+"nnumeros preporcionados (0) y (1). (2)",
+numero1, numero2, "Los numeros son iguales"));
+}
+else
+{
+if (numero1>numero2)
+{console.writeline(
+string.format(
+"numeros proporcionados (0) y (1). (2),
+numero1, numero2, "los numeros son iguales"));
+}
+else
+console.writeline(
+string.format(
+"numeros proporcionados (0) y (1).(2)",
+numero1,numero2,"el mayor es el segundo"));
+}
+}
+//pausa
+console.writeline("");
+console.writeline("presiona INTO para continuar");
+console.readkey();
+}
+}
+
+
+*ACUMULADO*
+
+using System;
+using system.collections.generic;
+using system.linq;
+using system.text;
+usisng system.threading.tasks;
+
+namespace Acumulado
+{
+class program
+{
+stativ void Main(string[] args)
+{
+string_numero;
+int numero;
+int acumulado=0;
+Console.WriteLine("Capture los enteros a acumular.");
+Console.WriteLine("Dejar vacio y dar INTRO, para salir");
+Console.WriteLine(**);
+//cuando se usa un ciclo while infinito, no concluye sino hasta que de manera explicita se ejecuta un break.
+while(true)
+{
+Console.WriteLine("Dame un numero entero: ");
+_numero=Console.ReadLine();
+if(_numero **"")
+{
+break;
+}
+else
+{
+if(int.TryParse(_numero, out numero))
+{
+acumulado+=numero;
+Console.WriteLine(String.format("Monto acumulado:{0},acumulado));
+}
+else
+{
+Console.WriteLine("El dato proporcionado no es un numero entero.");
+Console.WriteLine("Intenta de nuevo");
+}
+}
+}
+//Pausa
+console.writeline("");
+console.writeline("presiona INTRO para continuar");
+console.readkey
+}
+}
+}
+
+*Multiplo*
+using system;
+
+namespace Multiplo
+(
+class program
+(
+static void Main(string[] args)
+(
+string_numero;
+int numero;
+bool esMultiplo3, esMultiplo5, esMultiplo7;
+
+try
+(
+
+Console.Write("Dame un numero entero:");
+_numero=Console.ReadLine();
+numero=Convert.ToInt32(_numero);
+//Si un numero tiene un residual de cero con respecto a un numero, es que es un multiplo.
+esMultiplo3= ((numero % 3)==0);
+esMultiplo5= ((numero % 5)==0);
+esMultiplo7= ((numero % 7)==0);
+//Si es multiplo de 3 y de 5 al mismo tiempo, o si es multiplo de 7, correcto.
+if((esMultiplo3 & esMultiplo5) | esMultiplo7)
+(
+Console.WriterLine("Incorrecto");
+)
+)
+carch (Exepction =)
+(
+Console.WriteLine("");
+Console.WriteLine("Presiona INTRO para continuar");
+Console.WriteLine();
+)
+)
+)
+)
+
+
 
 
 
